@@ -27,5 +27,21 @@ body {
       color: black;
       
   }
+
+  .btn-custom {
+    color: black;
+    background-color: #7FB685;
+    border-color: #7FB685;
+    position: relative;
+    bottom: 100px;
+}
   
+
+
+
+
+
+
+
+
   -webkit-filter: grayscale(100%);
