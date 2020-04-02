@@ -1,0 +1,26 @@
+
+
+body {
+    color: var(--maincolor(#7FB685))
+    
+}
+
+.masthead {
+    height: 90vh;
+    min-height: 500px;
+    background-image: url(media/crop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+  h1 {
+      font-family: sans-serif;
+      color: black;
+  }
+
+  h2 {
+      color: black;
+  }
+  
