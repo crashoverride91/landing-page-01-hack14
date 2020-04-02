@@ -8,10 +8,13 @@ body {
 .masthead {
     height: 90vh;
     min-height: 500px;
-    background-image: url(media/crop.jpg);
+    background-image:url(media/crop.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
+    
+
   }
 
 
@@ -22,5 +25,7 @@ body {
 
   h2 {
       color: black;
+      
   }
   
+  -webkit-filter: grayscale(100%);
