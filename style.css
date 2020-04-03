@@ -1,8 +1,7 @@
 
 
 body {
-    color: var(--maincolor(#7FB685))
-    
+    background-color:white;
 }
 
 .masthead {
@@ -34,16 +33,31 @@ body {
 }
   
 .custom-story{
-
-    width:70%;
+    border-radius: 20px;
 }
 
 .btn-form {
     color: black;
     background-color: #7FB685;
     border-color: #7FB685;
+    font-weight: bold;
+    
 }
 
+.btn-header {
+    color: black;
+    background-color: #7FB685;
+    border-color: #7FB685;
+    font-weight: bold;
+    font-size: 20px;
+    
+    
+}
+
+.btn-header:hover {
+    color:#7FB685;
+    background-color: black;
+}
 
 .btn-form:hover {
     color:#7FB685;
@@ -54,23 +68,20 @@ body {
     font-size: 5em;
 }
 
-.custom-box{
 
-    color:#7FB685;
-    font-size: 5em;
-    float:left;
-    margin-right: 30px;
+.custom-position-button{
+    position: relative;
+    top: 250px;
+    right: 80px;
 }
 
-.cifre{
-
-   font-size:2em;
-   padding-top:3px;
-   margin-left:2px;
-   
+.icon-custom {
+    color: #7FB685;
 }
 
-
-
+.inline {
+    display: inline;
+    align-items: center;
+}
 
 
