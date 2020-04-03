@@ -8,14 +8,11 @@ body {
 .masthead {
     height: 90vh;
     min-height: 500px;
-    background-image:url(media/crop.jpg);
+    background: linear-gradient(to left, rgba(100,100,100, .8) ,rgba(100,100,100, .8)),url(media/crop.jpg); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
-    
-
-  }
+}
 
 
   h1 {
@@ -37,11 +34,17 @@ body {
 }
   
 
+.btn-form {
+    color: black;
+    background-color: #7FB685;
+    border-color: #7FB685;
+}
 
+.btn-form:hover {
+    color:#7FB685;
+    background-color: black;
+}
 
-
-
-
-
-
-  -webkit-filter: grayscale(100%);
+.custom-icon {
+    font-size: 5em;
+}
