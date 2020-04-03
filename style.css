@@ -29,16 +29,21 @@ body {
     color: black;
     background-color: #7FB685;
     border-color: #7FB685;
-    position: relative;
-    bottom: 100px;
+    float:right;
+
 }
   
+.custom-story{
+
+    width:70%;
+}
 
 .btn-form {
     color: black;
     background-color: #7FB685;
     border-color: #7FB685;
 }
+
 
 .btn-form:hover {
     color:#7FB685;
@@ -48,3 +53,24 @@ body {
 .custom-icon {
     font-size: 5em;
 }
+
+.custom-box{
+
+    color:#7FB685;
+    font-size: 5em;
+    float:left;
+    margin-right: 30px;
+}
+
+.cifre{
+
+   font-size:2em;
+   padding-top:3px;
+   margin-left:2px;
+   
+}
+
+
+
+
+
