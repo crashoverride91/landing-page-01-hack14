@@ -2,16 +2,19 @@
 
 body {
     background-color:white;
+    font-family: 'Roboto', sans-serif;
 }
 
 .masthead {
-    height: 90vh;
-    min-height: 500px;
     background: linear-gradient(to left, rgba(100,100,100, .8) ,rgba(100,100,100, .8)),url(media/crop.jpg); 
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
+    height: 800px;
+    
 }
+
+
+
 
 
   h1 {
@@ -24,13 +27,6 @@ body {
       
   }
 
-  .btn-custom {
-    color: black;
-    background-color: #7FB685;
-    border-color: #7FB685;
-    float:right;
-
-}
   
 .custom-story{
     border-radius: 20px;
@@ -71,7 +67,7 @@ body {
 
 .custom-position-button{
     position: relative;
-    top: 250px;
+    top: 150px;
     right: 80px;
 }
 
@@ -83,5 +79,14 @@ body {
     display: inline;
     align-items: center;
 }
+
+.bg-custom {
+    background: linear-gradient(to bottom , #7FB685 , white); 
+}
+
+.shadow-custom {
+    text-shadow: 2px 2px #7FB685;
+  }
+
 
 
