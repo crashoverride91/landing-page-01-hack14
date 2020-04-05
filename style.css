@@ -13,21 +13,27 @@ body {
     
 }
 
+.font-sottotitolo{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 550;
+}
 
 
 
 
-  h1 {
-      font-family: sans-serif;
-      color: black;
-  }
+h1 {
+    font-family: sans-serif;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 550;
+}
 
-  h2 {
-      color: black;
-      
-  }
+h2 {
+    color: black;
+    
+}
 
-  
+
 .custom-story{
     border-radius: 20px;
 }
@@ -86,7 +92,14 @@ body {
 
 .shadow-custom {
     text-shadow: 2px 2px #7FB685;
-  }
+}
 
 
+.bg-verde {
+    background-color: #7FB685;
+}
 
+
+.shadow-custom2 {
+    text-shadow: 2px 2px white;
+}
